@@ -1,0 +1,40 @@
+# functional 
+
+#algorithm
+
+#გვაქვს მიზანი მივიდეთ Bწერტილში, ვართ A წერტილში
+
+
+#ა---ბ გზას ეწოდება ალგორითმი, 
+#ინსტრუქციების ნაკადი
+
+my_nums = [15, 6, 20, 3]
+
+#როგორ დავადგინო რომელია ყველაზე დიდი რიცხვი 
+#ამ სიაში, რა არის მისი ალგორითმი
+
+#ვიღებთ სიის პირველ ელემენტს: 15-ს 
+#15
+
+#რა არის პროგრამირებაში ფუნქცია
+#ფუნქცია არის ალგორითმი რომელიც არის reusable და გააჩნია სახელი
+
+# def my_multiply(a, b):
+#     print(a * b)
+
+# my_multiply(5, 10)
+# my_multiply(6, 16)
+# my_multiply(16, 16)
+# my_multiply(26, 16)
+
+def create_khinkali(comis_type, shigtavsi):
+    print("ჩემი ხინკალი არის ", comis_type ,
+          "ცომისგან და მისი შიგთავსია: ", shigtavsi)
+
+comis_type = input("შეიყვანე ცომის ტიპი: ")
+shigtavi = input("შეიყვანე შიგთავსის ტიპი: ")
+
+create_khinkali(comis_type, shigtavi)
+create_khinkali("რუხი", "კარტოფილი")
+
+

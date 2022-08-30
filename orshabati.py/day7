@@ -1,0 +1,13 @@
+#step 1: 
+#user-ს შეყავს ორი რიცხვი
+
+num1 = int(input("enter num1: "))
+num2 = int(input("enter num2: "))
+
+#step 2
+#შევქმნათ ფუნქცია
+
+def addition(num1, num2):
+    return " თქვენი შედეგია " + str(num1 + num2) 
+
+print(addition(num1, num2))
